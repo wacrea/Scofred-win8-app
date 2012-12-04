@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>BlogTuto</title>
+
+    <!-- Références WinJS -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Références BlogTuto -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+</head>
+<body>
+    <div id="ArticleTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+        <div class="listItemTemplate">
+            <div class="listItemImage">
+                <img data-win-bind="src: thumbnail" />
+            </div>
+            <div class="listItemTitle" data-win-bind="innerText: title">
+            </div>
+        </div>
+    </div>
+
+    <div id="ArticleOnlyTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+        <div class="fragment articlepage">
+            <header aria-label="Header content" role="banner">
+                <button class="win-backbutton" aria-label="Back" type="button" onclick="WinJS.Navigation.navigate('/pages/home/home.html');"></button>
+                <h1 class="titlearea win-type-ellipsis">
+                    <span class="pagetitle" data-win-bind="innerText: title"></span>
+                </h1>
+            </header>
+            <section aria-label="Main content" role="main">
+                <div class="articleContent" data-win-bind="innerHTML: content"></div>
+            </section>
+        </div>
+    </div>
+
+    <div id="chargement"> 
+        <label id="pb" class="progressRingText large"> 
+            <progress class="win-large withText"></progress>
+        </label> 
+    </div>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmd', label:'Refresh', icon:'refresh'}" type="button"></button>
+    </div>
+</body>
+</html>

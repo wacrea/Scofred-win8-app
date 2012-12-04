@@ -1,0 +1,13 @@
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bin\Debug\resources.pri
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bin\Debug\AppxManifest.xml
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bin\Debug\Scofred.build.appxrecipe
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\priconfig.xml
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\layout.resfiles
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\resources.resfiles
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\pri.resfiles
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\LanguageQualifiers.txt
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\ProjectArchitectures.txt
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\priconfig.xml.intermediate
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\layout.resfiles.intermediate
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\resources.resfiles.intermediate
+C:\Users\Scofred\Desktop\Scofred\BlogTuto\bld\Debug\pri.resfiles.intermediate
